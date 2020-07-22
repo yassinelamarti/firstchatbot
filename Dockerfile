@@ -4,6 +4,6 @@ COPY app /app
 COPY server.sh /app/server.sh
 
 RUN rasa train
-chmod a+x /app/server.sh
+RUN chmod a+x /app/server.sh
 
 ENTRYPOINT ["/app/server.sh"]
