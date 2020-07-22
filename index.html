@@ -1,0 +1,22 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    </head>
+        <body>
+            <h1>Hello World!</h1>
+<div id="webchat"/>
+<script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+// Or you can replace latest with a specific version
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "https://finalchatbot.herokuapp.com/",
+    socketPath: "/socket.io/",
+    title: "yassine chatbot",
+    subtitle: "first robot",
+  })
+</script>
+        </body>
+</html>
