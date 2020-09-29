@@ -6,8 +6,7 @@ This template contains all you need to deploy [Rasa NLU](https://rasa.com/) serv
 
 Click on the button below to deploy this template on your Heroku instance.
 Heroku will automatically build the Docker image and your project's NLU model.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/yassinelamarti/depRasaa)](https://heroku.com/deploy)
 
 _It takes a couple of minutes to build and start the server. You can see the progress in Heroku logs._
 
