@@ -1,2 +1,0 @@
-use : https://cron-job.org/
-tuto: https://medium.com/better-programming/keeping-my-heroku-app-alive-b19f3a8c3a82
